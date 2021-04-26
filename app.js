@@ -19,7 +19,7 @@ const app = express();
 
 // db
 mongoose
-    .connect(process.env.MONGO_URI, {
+    .connect(process.env.MONGO_URI || 'mongodb+srv://user:pwd@cluster0.pvzd5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useCreateIndex: true
     })
