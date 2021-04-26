@@ -7,7 +7,7 @@ const isActive = (history, path) => {
     if (history.location.pathname === path) {
         return { color: "#ff9900" };
     } else {
-        return { color: "#ffffff" };
+        return { color: "#FA9F43" };
     }
 };
 
@@ -17,7 +17,7 @@ const Menu = ({ history }) => (
             <li className="nav-item">
                 <Link
                     className="nav-link"
-                    style={isActive(history, "/")}
+                    style={isActive(history, "/") }
                     to="/"
                 >
                     Home
