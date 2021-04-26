@@ -77,7 +77,7 @@ exports.update = (req, res) => {
     });
 };
 
-exports.addOrderToUserHistory = (req, res, next) => {
+/*exports.addOrderToUserHistory = (req, res, next) => {
     let history = [];
 
     req.body.order.products.forEach(item => {
@@ -114,4 +114,4 @@ exports.purchaseHistory = (req, res) => {
             }
             res.json(orders);
         });
-};
+};*/

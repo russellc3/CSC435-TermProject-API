@@ -1,6 +1,6 @@
 const express = require("express");
-const router = express.Router();
-
+//const router = express.Router();
+/*
 const { requireSignin, isAuth, isAdmin } = require("../controllers/auth");
 const { userById, addOrderToUserHistory } = require("../controllers/user");
 const {
@@ -40,4 +40,4 @@ router.put(
 router.param("userId", userById);
 router.param("orderId", orderById);
 
-module.exports = router;
+module.exports = router;*/

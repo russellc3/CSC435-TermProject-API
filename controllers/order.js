@@ -3,7 +3,7 @@ const { errorHandler } = require('../helpers/dbErrorHandler');
 // sendgrid for email npm i @sendgrid/mail
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey('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');
-
+/*
 exports.orderById = (req, res, next, id) => {
     Order.findById(id)
         .populate('products.product', 'name price')
@@ -75,4 +75,4 @@ exports.updateOrderStatus = (req, res) => {
         }
         res.json(order);
     });
-};
+};*/
