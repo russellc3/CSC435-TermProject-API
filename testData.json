@@ -1,0 +1,9 @@
+{
+  "products": [
+    {
+      "name": "test",
+      "price": "99.99",
+      "quantity": "10"
+    }
+  ]
+}
